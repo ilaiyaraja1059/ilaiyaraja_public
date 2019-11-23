@@ -10,6 +10,7 @@ public class DataStructures {
 		stack.push(new Student(3,30,"Ilaiyaraja"));
 		for(int i=0;i<2;i++) {
 		System.out.println(stack.pop().toString());
+		
 		}
 	}
 }

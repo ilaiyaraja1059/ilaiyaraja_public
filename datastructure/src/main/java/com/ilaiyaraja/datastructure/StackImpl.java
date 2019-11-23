@@ -17,7 +17,7 @@ public class StackImpl implements Stack{
 	}
 	
 	public boolean push(Student obj) {
-		if(objects.length-1!=top) {
+		if(!isFull()) {
 			top++;
 			objects[top]=obj;
 			return true;
